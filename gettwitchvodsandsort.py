@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-channel_name = "northernlion"
+channel_name = os.getenv('channel_name')
 
 temp_client_id = os.getenv('temp_client_id')
 
